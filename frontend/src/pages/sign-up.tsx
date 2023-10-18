@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Flex, Box } from "@radix-ui/themes";
-import { SignInForm } from "../components/auth/sign-in/SignInForm";
+import { SignUpForm } from "../components/auth/sign-up/SignUpForm";
 
-export const SignIn = () => {
+export const SignUp = () => {
   return (
     <Box m="auto">
       <Flex justify={"center"} align={"center"}>
         <Container size={"1"}>
-          <SignInForm />
+          <SignUpForm />
         </Container>
       </Flex>
     </Box>

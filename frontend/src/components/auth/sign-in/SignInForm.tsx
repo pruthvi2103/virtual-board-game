@@ -19,7 +19,7 @@ export const SignInForm = () => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           type="password"
-          placeholder="password"
+          placeholder="Password"
         />
         <Button>Submit</Button>
         <Text>
